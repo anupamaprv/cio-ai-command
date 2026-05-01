@@ -8,6 +8,7 @@ import {
   Users,
   Settings,
   Command,
+  GitBranch,
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
@@ -32,6 +33,12 @@ const navItems = [
     href: "/productivity",
     icon: TrendingUp,
     description: "ROI by function",
+  },
+  {
+    title: "Initiative Pipeline",
+    href: "/pipeline",
+    icon: GitBranch,
+    description: "Intake → Production",
   },
   {
     title: "Adoption Graph",

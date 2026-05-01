@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CommandCenter from "./pages/CommandCenter";
 import SpendIntelligence from "./pages/SpendIntelligence";
 import ProductivityIntelligence from "./pages/ProductivityIntelligence";
+import InitiativePipeline from "./pages/InitiativePipeline";
 import AdoptionGraph from "./pages/AdoptionGraph";
 import PeerLearning from "./pages/PeerLearning";
 import NotFound from "./pages/NotFound";
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/" element={<CommandCenter />} />
           <Route path="/spend" element={<SpendIntelligence />} />
           <Route path="/productivity" element={<ProductivityIntelligence />} />
+          <Route path="/pipeline" element={<InitiativePipeline />} />
           <Route path="/adoption" element={<AdoptionGraph />} />
           <Route path="/learning" element={<PeerLearning />} />
           <Route path="*" element={<NotFound />} />
