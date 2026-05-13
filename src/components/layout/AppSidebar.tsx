@@ -9,6 +9,7 @@ import {
   Settings,
   Command,
   GitBranch,
+  ShieldCheck,
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
