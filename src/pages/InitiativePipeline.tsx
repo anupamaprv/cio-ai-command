@@ -192,6 +192,11 @@ const InitiativePipeline = () => {
   return (
     <DashboardLayout>
       <div className="space-y-6">
+        <ExecSummary
+          tone="risk"
+          headline="Pilot kill rate at 38% — 2x industry benchmark; root cause is intake under-scoping, not model performance."
+          detail="Avg. time-to-production is 58 days (target: 45). Tightening intake review with mandatory ROI threshold would cut wasted spend ~$2.1M/yr and free 11 FTEs."
+        />
         {/* Header */}
         <div className="flex items-start justify-between flex-wrap gap-4">
           <div>

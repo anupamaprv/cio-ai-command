@@ -82,6 +82,11 @@ const ProductivityIntelligence = () => {
   return (
     <DashboardLayout>
       <div className="space-y-6">
+        <ExecSummary
+          tone="insight"
+          headline="Engineering & Customer Support deliver 71% of measured ROI ($14.2M); Finance & Legal lag at <8% — clear case for targeted enablement."
+          detail="Avg. employee reclaims 6.4 hrs/week. Replicating Sales' AI-assisted workflow playbook across Marketing could add an estimated $3.1M / yr."
+        />
         {/* Header */}
         <div className="flex items-center justify-between">
           <div>

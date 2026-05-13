@@ -89,6 +89,11 @@ const SpendIntelligence = () => {
   return (
     <DashboardLayout>
       <div className="space-y-6">
+        <ExecSummary
+          tone="opportunity"
+          headline="$1.4M in shelfware identified across 4 vendors — Legal & HR utilization below 40%, recoverable at next renewal."
+          detail="Top action: consolidate 3 overlapping LLM contracts (OpenAI, Anthropic, Cohere) into tiered enterprise agreement to unlock ~18% blended discount."
+        />
         {/* Header */}
         <div className="flex items-center justify-between">
           <div>
