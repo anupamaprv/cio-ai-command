@@ -9,6 +9,7 @@ import {
   Settings,
   Command,
   GitBranch,
+  ShieldCheck,
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
@@ -39,6 +40,12 @@ const navItems = [
     href: "/pipeline",
     icon: GitBranch,
     description: "Intake → Production",
+  },
+  {
+    title: "Governance",
+    href: "/governance",
+    icon: ShieldCheck,
+    description: "Risk & compliance",
   },
   {
     title: "Adoption Graph",
