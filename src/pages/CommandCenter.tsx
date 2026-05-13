@@ -1,6 +1,7 @@
 import { DashboardLayout } from "@/components/layout/DashboardLayout";
 import { MetricCard } from "@/components/dashboard/MetricCard";
 import { SectionHeader } from "@/components/dashboard/SectionHeader";
+import { ExecSummary } from "@/components/dashboard/ExecSummary";
 import { DataTable } from "@/components/dashboard/DataTable";
 import { HeatmapGrid } from "@/components/dashboard/HeatmapGrid";
 import { ProgressRing } from "@/components/dashboard/ProgressRing";
@@ -70,6 +71,11 @@ const CommandCenter = () => {
   return (
     <DashboardLayout>
       <div className="space-y-6">
+        <ExecSummary
+          tone="action"
+          headline="Anthropic spend up 45% MoM while 23% of Microsoft Copilot seats sit idle — rebalance now to fund Q1 expansion."
+          detail="Productivity gains hit 112K hours / $5.2M this month, but adoption is concentrated in Eng & Sales. Reallocate ~$280K of dormant licenses before next renewal cycle."
+        />
         {/* Header */}
         <div className="flex items-center justify-between">
           <div>

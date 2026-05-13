@@ -1,3 +1,4 @@
+import { ExecSummary } from "@/components/dashboard/ExecSummary";
 import { DashboardLayout } from "@/components/layout/DashboardLayout";
 import { MetricCard } from "@/components/dashboard/MetricCard";
 import { SectionHeader } from "@/components/dashboard/SectionHeader";
@@ -127,6 +128,11 @@ const PeerLearning = () => {
   return (
     <DashboardLayout>
       <div className="space-y-6">
+        <ExecSummary
+          tone="insight"
+          headline="Peer-led learning drives 3.2x faster time-to-competency than vendor training — but top 12 contributors are at burnout risk."
+          detail="Formalize a Champions program with comp recognition for the top 50 contributors to sustain the network and unlock org-wide knowledge multiplier."
+        />
         {/* Header */}
         <div className="flex items-center justify-between">
           <div>

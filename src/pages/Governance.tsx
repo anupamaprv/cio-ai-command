@@ -1,3 +1,4 @@
+import { ExecSummary } from "@/components/dashboard/ExecSummary";
 import { DashboardLayout } from "@/components/layout/DashboardLayout";
 import { MetricCard } from "@/components/dashboard/MetricCard";
 import { SectionHeader } from "@/components/dashboard/SectionHeader";
@@ -230,6 +231,11 @@ const Governance = () => {
   return (
     <DashboardLayout>
       <div className="space-y-6">
+        <ExecSummary
+          tone="risk"
+          headline="14 high-risk initiatives are out-of-policy and 38 approvals are overdue — board-reportable exposure if unresolved this quarter."
+          detail="Two High-tier projects (customer-facing GenAI) lack required Legal + Model Risk sign-off. Escalate to AI Risk Committee within 5 business days."
+        />
         {/* Header */}
         <div className="flex items-start justify-between flex-wrap gap-4">
           <div>

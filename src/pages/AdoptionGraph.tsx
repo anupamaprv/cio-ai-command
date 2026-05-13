@@ -1,3 +1,4 @@
+import { ExecSummary } from "@/components/dashboard/ExecSummary";
 import { DashboardLayout } from "@/components/layout/DashboardLayout";
 import { MetricCard } from "@/components/dashboard/MetricCard";
 import { SectionHeader } from "@/components/dashboard/SectionHeader";
@@ -85,6 +86,11 @@ const AdoptionGraph = () => {
   return (
     <DashboardLayout>
       <div className="space-y-6">
+        <ExecSummary
+          tone="opportunity"
+          headline="Prompt Engineering & RAG skills exist in only 4% of the workforce — the #1 bottleneck to scaling AI beyond pilot teams."
+          detail="EMEA adoption trails NA by 22 pts. A targeted 90-day upskilling cohort across Finance and Ops would close ~60% of the identified capability gap."
+        />
         {/* Header */}
         <div className="flex items-center justify-between">
           <div>
