@@ -42,6 +42,12 @@ const navItems = [
     description: "Intake → Production",
   },
   {
+    title: "Governance",
+    href: "/governance",
+    icon: ShieldCheck,
+    description: "Risk & compliance",
+  },
+  {
     title: "Adoption Graph",
     href: "/adoption",
     icon: Network,
