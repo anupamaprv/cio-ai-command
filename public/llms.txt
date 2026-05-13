@@ -1,0 +1,15 @@
+# AICommand
+
+> Enterprise AI Operations and Productivity Intelligence platform for CIOs, CFOs, and Chief Learning Officers — track AI vendor spend, measure ROI, govern initiatives, and accelerate adoption.
+
+AICommand gives executive leaders a single command center for their AI portfolio: vendor spend and license utilization, productivity and ROI by function, initiative pipeline from intake to production, risk-tiered governance, organizational skills graph, and peer-to-peer learning.
+
+## Pages
+
+- [Command Center](/): Executive dashboard with KPIs across spend, productivity, adoption, and risk.
+- [Spend & Vendor Intelligence](/spend): AI vendor spend, license utilization, and shelfware recovery.
+- [Productivity Intelligence](/productivity): AI-driven productivity and ROI by function, in hours and dollars.
+- [Initiative Pipeline](/pipeline): End-to-end view from intake through pilot to production, including rejections and cancellations.
+- [Governance](/governance): Risk-tiered classification (high/medium/low) with approvals, legal review, and auditability.
+- [Adoption & Skills Graph](/adoption): Skill mapping, adoption hotspots, and capability gaps across the org.
+- [Peer Learning Hub](/learning): Peer-to-peer AI learning, top contributors, and time-to-competency.
