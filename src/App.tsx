@@ -25,6 +25,7 @@ const App = () => (
           <Route path="/spend" element={<SpendIntelligence />} />
           <Route path="/productivity" element={<ProductivityIntelligence />} />
           <Route path="/pipeline" element={<InitiativePipeline />} />
+          <Route path="/governance" element={<Governance />} />
           <Route path="/adoption" element={<AdoptionGraph />} />
           <Route path="/learning" element={<PeerLearning />} />
           <Route path="*" element={<NotFound />} />
