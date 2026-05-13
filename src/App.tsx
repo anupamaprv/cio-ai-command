@@ -7,6 +7,7 @@ import CommandCenter from "./pages/CommandCenter";
 import SpendIntelligence from "./pages/SpendIntelligence";
 import ProductivityIntelligence from "./pages/ProductivityIntelligence";
 import InitiativePipeline from "./pages/InitiativePipeline";
+import Governance from "./pages/Governance";
 import AdoptionGraph from "./pages/AdoptionGraph";
 import PeerLearning from "./pages/PeerLearning";
 import NotFound from "./pages/NotFound";
