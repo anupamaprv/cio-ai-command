@@ -1,3 +1,4 @@
+import { ExecSummary } from "@/components/dashboard/ExecSummary";
 import { DashboardLayout } from "@/components/layout/DashboardLayout";
 import { MetricCard } from "@/components/dashboard/MetricCard";
 import { SectionHeader } from "@/components/dashboard/SectionHeader";
