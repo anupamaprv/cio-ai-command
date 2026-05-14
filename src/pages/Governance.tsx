@@ -372,58 +372,13 @@ const Governance = () => {
           </div>
         </motion.div>
 
-        {/* Compliance + Approvals */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
-            className="glass-panel p-4"
-          >
-            <SectionHeader
-              title="Policy Posture"
-              subtitle="Portfolio-wide"
-            />
-            <div className="h-64">
-              <ResponsiveContainer width="100%" height="100%">
-                <RadialBarChart
-                  innerRadius="30%"
-                  outerRadius="100%"
-                  data={complianceStatus}
-                  startAngle={90}
-                  endAngle={-270}
-                >
-                  <PolarAngleAxis type="number" domain={[0, 100]} tick={false} />
-                  <RadialBar background dataKey="value" cornerRadius={6} />
-                  <Tooltip
-                    contentStyle={{
-                      backgroundColor: "hsl(var(--card))",
-                      border: "1px solid hsl(var(--border))",
-                      borderRadius: "8px",
-                    }}
-                    formatter={(v: number) => [`${v}%`, ""]}
-                  />
-                </RadialBarChart>
-              </ResponsiveContainer>
-            </div>
-            <div className="space-y-2 mt-2">
-              {complianceStatus.map((s) => (
-                <div key={s.name} className="flex items-center justify-between text-xs">
-                  <div className="flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full" style={{ backgroundColor: s.fill }} />
-                    <span className="text-muted-foreground">{s.name}</span>
-                  </div>
-                  <span className="font-mono text-foreground">{s.value}%</span>
-                </div>
-              ))}
-            </div>
-          </motion.div>
-
+        {/* Approvals */}
+        <div className="grid grid-cols-1 gap-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="glass-panel p-4 lg:col-span-2"
+            className="glass-panel p-4"
           >
             <SectionHeader
               title="Approvals Required by Tier"
